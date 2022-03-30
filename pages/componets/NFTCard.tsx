@@ -1,7 +1,7 @@
 const NFTcard = () => {
     return (
         <>
-            <div className="w-[250px]  relative border border-black  m-auto my-8  rounded-2xl ">
+            <div className="w-[320px]  relative border border-black  m-auto my-8  rounded-2xl ">
                 <div className=" w-[90%] m-auto relative border ">
                     <div className="h-22 bg-white  absolute  rounded-xl px-4 py-2 drop-shadow-lg -bottom-2" >
                         <p className="text-sm">Name of artist</p>
