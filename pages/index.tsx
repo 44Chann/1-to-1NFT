@@ -1,6 +1,8 @@
 import Head from 'next/head'
-import { Hero } from './componets/Hero'
-import { Navbar } from './componets/navbar.t'
+import Hero from './componets/Hero'
+import Navbar from './componets/Navbar'
+
+
 
 
 

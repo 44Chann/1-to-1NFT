@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { useState } from "react";
-
-export const Navbar = () => {
+const Navbar = () => {
 
     return (
         <nav className="z-50 border px-16 left-0 right-0 top-0  w-full  flex  justify-between  py-4 items-center font-inter">
@@ -29,3 +28,5 @@ export const Navbar = () => {
 
     );
 };
+
+export default Navbar; 

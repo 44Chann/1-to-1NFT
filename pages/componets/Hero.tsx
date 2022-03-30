@@ -1,12 +1,10 @@
 import Link from "next/link"
-
-
-export const Hero = () => {
+const Hero = () => {
     return (
         <>
             <div className="flex relative flex-col lg:flex-row p-6">
                 <div className="flex-col  items-center justify-center py-11 w-full lg:w-[50%] text-center lg:text-left border">
-                    <h1 className="text-2xl lg:text-4xl my-4 font-bold ">
+                    <h1 className="text-2xl lg:text-6xl my-4 font-bold ">
                         The 1/1 NFT marketplace for polygon
                     </h1>
                     <p className="text-lg mb-10 lg:text-left">Create and collect amazing digital art, without the negative environmental impact.</p>
@@ -25,3 +23,5 @@ export const Hero = () => {
         </>
     )
 }
+
+export default Hero;
