@@ -7,7 +7,7 @@ const Hero = () => {
                     <h1 className="text-2xl lg:text-6xl my-4 font-bold ">
                         The 1/1 NFT marketplace for polygon
                     </h1>
-                    <p className="text-lg mb-10 lg:text-left">Create and collect amazing digital art, without the negative environmental impact.</p>
+                    <p className="text-lg mb-10 lg:text-left lg:text-2xl">Create and collect amazing digital art, without the negative environmental impact.</p>
                     <Link href="/explore" >
                         <a className="px-6 py-3  rounded-xl  text-lg bg-green-400 text-white">Explore amazing art</a>
                     </Link>
