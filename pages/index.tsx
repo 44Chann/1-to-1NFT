@@ -1,7 +1,19 @@
 import Head from 'next/head'
+import { Navbar } from '../componets/navbar.t'
 
-export default function Home() {
+
+
+const Homepage: React.FC = () => {
   return (
-    <h1>hello world</h1>
+    <>
+      <Head>
+        <title>Blitz</title>
+      </Head>
+      <div className='w-full h-full'>
+        <Navbar />
+      </div>
+    </>
   )
 }
+
+export default Homepage
