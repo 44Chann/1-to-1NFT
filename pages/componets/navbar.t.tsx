@@ -4,7 +4,7 @@ import { useState } from "react";
 export const Navbar = () => {
 
     return (
-        <nav className="z-50 border fixed px-16 left-0 right-0 top-0  w-full  flex  justify-between  py-4 items-center font-inter">
+        <nav className="z-50 border px-16 left-0 right-0 top-0  w-full  flex  justify-between  py-4 items-center font-inter">
             <div>
                 <h1 className="font-bold lg:text-2xl">Blisz NFT</h1>
             </div>

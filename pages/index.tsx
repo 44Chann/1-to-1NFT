@@ -1,5 +1,6 @@
 import Head from 'next/head'
-import { Navbar } from '../componets/navbar.t'
+import { Hero } from './componets/Hero'
+import { Navbar } from './componets/navbar.t'
 
 
 
@@ -9,8 +10,9 @@ const Homepage: React.FC = () => {
       <Head>
         <title>Blitz</title>
       </Head>
-      <div className='w-full h-full'>
+      <div className='w-full lg:w-[80%] m-auto h-full'>
         <Navbar />
+        <Hero />
       </div>
     </>
   )
