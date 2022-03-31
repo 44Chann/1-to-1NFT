@@ -1,6 +1,6 @@
 import NFTcard from "./NFTCard";
 
-const Trending = () => {
+const NFTlist = () => {
     return (
         <>
             <div className=" w- my-10">
@@ -18,9 +18,6 @@ const Trending = () => {
                     <NFTcard />
                     <NFTcard />
                     <NFTcard />
-
-
-
                 </div>
             </div>
 
@@ -28,4 +25,4 @@ const Trending = () => {
     )
 }
 
-export default Trending;
+export default NFTlist;

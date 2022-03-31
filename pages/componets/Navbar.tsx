@@ -5,18 +5,21 @@ const Navbar = () => {
     return (
         <nav className="z-50 border px-16 left-0 right-0 top-0  w-full  flex  justify-between  py-4 items-center font-inter">
             <div>
-                <h1 className="font-bold lg:text-2xl">Blisz NFT</h1>
+                <Link href="/">
+                    <a className="font-bold lg:text-2xl">Blisz NFT</a>
+                </Link>
+
             </div>
 
             <ul className="lg:flex  lg:flex-row justify-center item-center">
                 {[
                     {
                         name: "Explore",
-                        link: "/",
+                        link: "/Explore",
                     },
                     {
                         name: "Signup",
-                        link: "/useCases",
+                        link: "/",
                     },
                 ].map((item) => (
                     <Link href={item.link}>
