@@ -3,7 +3,6 @@ import Hero from './componets/Hero'
 import Navbar from './componets/Navbar'
 import Trending from './componets/NFTlist'
 
-
 const Homepage: React.FC = () => {
   return (
     <>
