@@ -1,11 +1,7 @@
 import Head from 'next/head'
 import Hero from './componets/Hero'
 import Navbar from './componets/Navbar'
-import NFTcard from './componets/NFTCard'
 import Trending from './componets/NFTlist'
-
-
-
 
 
 const Homepage: React.FC = () => {
@@ -18,7 +14,6 @@ const Homepage: React.FC = () => {
         <Navbar />
         <Hero />
         <Trending />
-
       </div>
     </>
   )

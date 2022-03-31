@@ -6,7 +6,6 @@ const Explore = () => {
         <>
             <div className="w-full lg:w-[80%] m-auto">
                 <Navbar />
-
                 <div className="lg:my-14 my-8 items-center  lg:flex m-auto justify-between w-full ">
                     <div className="text-center text-xl grow">
                         <h1>Explore 1/1 Art</h1>
@@ -22,7 +21,6 @@ const Explore = () => {
                             <option label="sort by lowest price" value="lowest">sort by lowest price</option>
                             <option label="sort by highest price" value="highest">sort by highest price</option>
                         </select>
-
                     </div>
                 </div>
                 <div>

@@ -21,9 +21,7 @@ const NFTcard = () => {
                         </div>
                     </div>
                 </a>
-
-            </Link>
-
+            </Link>\
         </>
     )
 }

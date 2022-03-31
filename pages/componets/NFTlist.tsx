@@ -20,7 +20,6 @@ const NFTlist = () => {
                     <NFTcard />
                 </div>
             </div>
-
         </>
     )
 }
